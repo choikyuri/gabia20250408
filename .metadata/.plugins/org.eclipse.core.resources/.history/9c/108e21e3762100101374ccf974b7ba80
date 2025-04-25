@@ -1,0 +1,13 @@
+package chapter12.hashcode;
+
+import java.util.HashMap;
+
+public class KeyMain {
+
+	public static void main(String[] args) {
+		
+		HashMap<Key,String> hashMap=new HashMap<Key,String>(); 
+
+	}
+
+}

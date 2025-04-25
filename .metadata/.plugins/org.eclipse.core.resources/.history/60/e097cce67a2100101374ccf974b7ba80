@@ -1,0 +1,22 @@
+package chapter12.clone;
+
+
+class Book implements Cloneable{
+	
+	String title;
+	
+	public Book(String title) {
+		this.title=title;
+	}
+	
+}//Book
+
+
+public class MyBook_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -5,6 +5,10 @@ public class Student {
 	int studentId;
 	String studentName;
 
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Student(int studentId, String studentName) {
 		this.studentId = studentId;
 		this.studentName = studentName;

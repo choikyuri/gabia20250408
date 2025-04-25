@@ -1,0 +1,10 @@
+package chapter12.hashcode;
+
+public class KeyMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

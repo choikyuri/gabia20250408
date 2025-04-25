@@ -1,0 +1,33 @@
+package chapter12.string;
+
+public class StringBufferMain_08 {
+
+	public static void main(String[] args) throws ClassNotFoundException {
+
+		StringBuffer buf = new StringBuffer("Nice Day");
+		System.out.println(buf.toString());
+		System.out.println(buf.length()); // 8글자
+		System.out.println(buf.capacity()); // 기본용량 16 + 8=24
+
+		buf.insert(0, "Hi ");
+		System.out.println(buf.toString());
+
+		buf.insert(11, " Everybody! ");
+		System.out.println(buf);
+
+		buf.delete(0, 3);
+		System.out.println(buf);
+
+		StringBuilder sb = new StringBuilder();
+		sb.ensureCapacity(50);// 50만큼 용량 할당
+
+		Student student = new Student();
+		System.out.println(student);
+
+		// 클래스 정보를 가져오는 객체로 변환
+		Class sClass = Class.forName("chapter12.string.Student");
+		System.out.println(sClass);
+
+	}
+
+}

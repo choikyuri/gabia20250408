@@ -1,0 +1,25 @@
+package chapter12.hashcode;
+
+public class Key {
+
+	public int number;
+	public int name;
+	public int addr;
+
+	public Key(int number) {
+		this.number = number;
+	}
+
+	@Override
+	public int hashCode() {
+		//return super.hashCode();//실제 heap메모리 16진수 주소
+		return number;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		// TODO Auto-generated method stub
+		return super.equals(obj);
+	}
+
+}
