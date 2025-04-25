@@ -1,0 +1,16 @@
+package chapter07;
+
+public class StaticValueMain {
+
+	public static void main(String[] args) {
+
+		StaticValue_02 obj1 = new StaticValue_02();
+		StaticValue_02 obj2 = new StaticValue_02();
+
+		obj1.a = 10;
+		obj1.b = 20;
+		System.out.println("obj1.a: " + obj1.a + "obj1.b: " + obj1.b);
+
+	}
+
+}

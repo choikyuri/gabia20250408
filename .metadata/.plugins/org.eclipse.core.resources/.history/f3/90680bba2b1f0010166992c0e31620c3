@@ -1,0 +1,15 @@
+package chapter08;
+
+public class DmbCellPhone extends CellPhone {
+
+	int channel;
+
+	public DmbCellPhone(int channel, String model, String color) {
+		this.channel = channel;
+		this.model=model;
+		this.color=color;
+	}
+	
+	
+
+}

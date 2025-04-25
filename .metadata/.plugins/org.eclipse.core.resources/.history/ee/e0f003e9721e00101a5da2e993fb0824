@@ -1,0 +1,17 @@
+package chapter07;
+
+public class FinalTest_01 {
+
+	// 멤버변수
+	private static int MAX = 3;
+
+	public static void main(String[] args) {
+		// 지역변수
+		int num = 0;
+		num = 1;
+
+		MAX = 5;
+
+	}
+
+}

@@ -1,0 +1,25 @@
+package chapter06;
+
+import javax.swing.JOptionPane;
+
+public class SungJuk {
+
+	// 멤버 변수=필드=속성
+	private String std_num;
+	private String std_name;
+	private int java, oracke, spring;
+
+	// 생성자
+	public SungJuk() {
+
+	}
+
+	// 메서드
+	public static void main(String[] args) {
+
+		std_num = JOptionPane.showInputDialog("학번");
+		std_name = JOptionPane.showInputDialog("이름");
+
+	}
+
+}

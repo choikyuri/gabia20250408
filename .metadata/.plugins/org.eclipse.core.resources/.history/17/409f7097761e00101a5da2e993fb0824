@@ -1,0 +1,12 @@
+package chapter07;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+
+		// 일산점 031-123-5678 이자율 5.3f
+		// 종로점 02-852-9856
+
+	}
+
+}

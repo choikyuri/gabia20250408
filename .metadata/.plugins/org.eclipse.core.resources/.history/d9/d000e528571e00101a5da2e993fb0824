@@ -1,0 +1,24 @@
+package chapter06;
+
+public class Vending {
+
+	private Can[] can = new Can[5];
+	private int money;
+
+	// 생성자
+
+	// 메소드
+	public void init() {
+		can[0] = new Can("환타", 1000);
+		can[1] = new Can("사이다", 1200);
+		can[2] = new Can("오렌지쥬스", 1100);
+		can[3] = new Can("바나나우유", 1400);
+		can[4] = new Can("콜라", 1000);
+	}
+
+	// 사용 가능한 음료만 출력하는 메소드
+	public void showCans(int m) {
+        
+	}//showCans
+
+}

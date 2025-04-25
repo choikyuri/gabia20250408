@@ -1,0 +1,13 @@
+package chapter12.string;
+
+import java.util.Date;
+
+public class DateMain {
+
+	public static void main(String[] args) {
+		Date now = new Date();
+		//System.out.println(now);
+		now.toString();//now(heap에 있는 객체) => String 타입으로 변환
+	}
+
+}

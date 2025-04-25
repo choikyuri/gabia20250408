@@ -1,0 +1,23 @@
+package chapter06;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class UpDownMain_10 {
+
+	public static void main(String[] args) {
+		
+		int select;
+		String check;
+		
+		//객체생성
+		UpDown updown=new UpDown();
+		
+		Scanner scan=new Scanner(System.in);
+		
+		
+
+	}
+
+}

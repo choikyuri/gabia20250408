@@ -1,0 +1,8 @@
+package chapter10.Interface;
+
+
+//interface에서는 일반 클래스가 아닌 interface여도 extends키워드로 상속
+public interface MyInterface extends X, Y {
+
+	
+}

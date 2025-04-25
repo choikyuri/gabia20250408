@@ -1,0 +1,9 @@
+INDEX VERSION 1.134+D:\gabia250407\JAVA\JAVA_WS\.metadata\.plugins\org.eclipse.jdt.core
+3499771513.index
+1390024989.index
+3419621543.index
+3114153354.index
+3453633947.index
+671422926.index
+3763690712.index
+3564709225.index

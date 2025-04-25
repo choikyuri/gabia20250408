@@ -1,0 +1,12 @@
+package chapter06;
+
+public class StdInfo {
+
+	// 멤버변수=필드
+	public String studentName;
+	public int grade;
+	public int money;
+	
+	
+
+}

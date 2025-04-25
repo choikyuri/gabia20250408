@@ -1,0 +1,14 @@
+package chapter07;
+
+public class Bank {
+
+	private String point; // 지점명
+	private String tel; // 전화번호
+	static float interest; // 은행이자
+
+	public Bank(String point, String tel) {
+		this.point = point;
+		this.tel = tel;
+	}
+
+}

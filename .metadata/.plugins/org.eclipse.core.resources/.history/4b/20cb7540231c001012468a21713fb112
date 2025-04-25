@@ -1,0 +1,23 @@
+package chapter06;
+
+public class TeamMain {
+
+	public static void main(String[] args) {
+
+		TeamGroup team = new TeamGroup();
+
+		team.init();
+		team.Disp();
+
+		// ----------------
+		System.out.println();
+		TeamMember_05 t = new TeamMember_05();
+
+		t.setName("신인철");
+		System.out.println("팀장이름: " + t.getName());
+		t.setmPhone("010-1234-5678");
+		System.out.println("팀장 전화번호: "+t.getmPhone());
+
+	}
+
+}

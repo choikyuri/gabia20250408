@@ -1,0 +1,14 @@
+package chapter08;
+
+public class A {
+
+	protected String field;
+
+	// 생성자
+
+	protected void method() {
+		System.out.println("A Class");
+		System.out.println("field");
+	}
+
+}

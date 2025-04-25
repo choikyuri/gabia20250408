@@ -1,0 +1,13 @@
+package chapter05;
+
+public class Example03 {
+
+	public static void main(String[] args) {
+		
+		int[] numbers = { 7, 2, 9, 1, 5 };
+		int maxnum = findMax(numbers);
+		System.out.println("최대값: " + maxnum);
+
+	}
+
+}

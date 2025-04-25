@@ -1,0 +1,11 @@
+package chapter12.wrapper;
+
+public class BoxingUnBoxingMain_02 {
+
+	public static void main(String[] args) {
+		
+		// AutoBoxing(Integer)
+
+	}
+
+}

@@ -1,0 +1,13 @@
+package chapter08;
+
+public class Company {
+
+	public static void main(String[] args) {
+
+		Employee_09 emp = new Employee_09("김직원", 4000);
+		emp.work();
+		emp.getInfo();
+
+	}
+
+}

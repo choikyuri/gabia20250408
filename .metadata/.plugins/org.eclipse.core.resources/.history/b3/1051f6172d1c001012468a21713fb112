@@ -1,0 +1,15 @@
+package chapter06;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+
+		// 기본생성자를 이용한 student1 객체 생성
+		Student_07 student1 = new Student_07();
+		student1.studentName="솔자바";
+		student1.address="종로구";
+		student1.showStudentInfo();
+
+	}
+
+}

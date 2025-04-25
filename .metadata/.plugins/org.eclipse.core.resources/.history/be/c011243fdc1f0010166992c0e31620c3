@@ -1,0 +1,9 @@
+package chapter09;
+
+public abstract class Car {
+
+	public abstract void drive();
+
+	public abstract void stop();
+
+}

@@ -1,0 +1,24 @@
+package chapter10.Interface;
+
+public class MyClassMain_04 {
+
+	public static void main(String[] args) {
+
+		MyClass mClass = new MyClass();
+
+		X xClass = mClass; //X클래스 타입
+		xClass.x();
+		System.out.println();
+		
+		Y yClass=mClass; //y클래스 타입
+		yClass.y();
+		System.out.println();
+		
+		MyInterface iClass=mClass;
+		iClass.myMethod();
+		iClass.x();
+		iClass.y();
+				
+	}
+
+}

@@ -1,0 +1,12 @@
+package chapter10.Interface;
+
+public class MyClassMain_04 {
+
+	public static void main(String[] args) {
+
+		MyClass mClass = new MyClass();
+
+		X xClass = mClass;
+	}
+
+}

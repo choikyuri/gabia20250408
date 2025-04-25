@@ -1,0 +1,12 @@
+package chapter12.wrapper;
+
+public class ValueCompareMain_04 {
+
+	public static void main(String[] args) {
+		//오토박시의 범위
+		System.out.println("[-128 ~ 128초과할 경우]");//1byte=8bit
+		Integer obj1=300;
+
+	}
+
+}

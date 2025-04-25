@@ -1,0 +1,22 @@
+package chapter08;
+
+import java.util.Scanner;
+
+public class CalculatorMain {
+
+	public static void main(String[] args) {
+
+		Scanner s = new Scanner(System.in);
+
+		System.out.print("정수 A를 입력하세요: ");
+		int a = s.nextInt();
+		System.out.print("정수 B를 입력하세요: ");
+		int b = s.nextInt();
+	}
+
+	public static int calc(Example c1, int a, int b) {
+		
+		return c1.getResult(a, b);
+	}
+
+}

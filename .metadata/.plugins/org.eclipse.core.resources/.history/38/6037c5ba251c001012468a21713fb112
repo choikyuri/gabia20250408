@@ -1,0 +1,12 @@
+package chapter06;
+
+public class StudentInfoMain {
+
+	public static void main(String[] args) {
+
+		StudentInfo_06 studentchoi = new StudentInfo_06(1004, "최백설", 1, "일산");
+		System.out.println(studentchoi.address);
+
+	}
+
+}

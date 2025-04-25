@@ -1,0 +1,9 @@
+package chapter07;
+
+public class Guide_04 {
+
+	// 멤버변수
+	static String point;
+	Guest[] guest;
+
+}

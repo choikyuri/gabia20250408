@@ -1,0 +1,8 @@
+package chapter08;
+
+public class DmbCellPhone extends CellPhone {
+
+	int channel;
+	
+
+}

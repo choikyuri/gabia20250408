@@ -1,0 +1,22 @@
+package chapter10.Interface;
+
+public class MyClass implements MyInterface {
+
+	@Override
+	public void x() {
+		System.out.println("x()");
+	}
+
+	@Override
+	public void y() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void myMethod() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

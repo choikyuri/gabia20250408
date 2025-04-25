@@ -1,0 +1,19 @@
+package chapter06;
+
+public class TeamMain {
+
+	public static void main(String[] args) {
+
+		TeamGroup team = new TeamGroup();
+
+		team.init();
+		team.Disp();
+		
+		//----------------
+		System.out.println();
+		TeamMember_05 t=new TeamMember_05();
+		
+
+	}
+
+}

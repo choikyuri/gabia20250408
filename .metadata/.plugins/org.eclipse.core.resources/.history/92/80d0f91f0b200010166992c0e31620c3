@@ -1,0 +1,9 @@
+package System.out;
+
+public class CustomerMain_02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

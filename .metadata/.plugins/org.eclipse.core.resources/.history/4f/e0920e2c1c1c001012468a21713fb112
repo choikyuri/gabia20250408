@@ -1,0 +1,11 @@
+package chapter06;
+
+public class TeamGroup {
+
+	TeamMember_05[] member = new TeamMember_05[5];
+
+	public void init() {
+		
+	}
+	
+}

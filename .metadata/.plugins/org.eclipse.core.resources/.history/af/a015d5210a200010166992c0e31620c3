@@ -1,0 +1,7 @@
+package chapter10.MultiInterface;
+
+public interface Sell {
+
+	void sell();
+
+}

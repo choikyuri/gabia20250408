@@ -1,0 +1,9 @@
+package chapter10.MultiInterface;
+
+public class CustomerMain_02 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,12 @@
+package chapter08;
+
+public class DmbCellPhoneMain {
+
+	public static void main(String[] args) {
+		
+		
+		DmbCellPhone dmb=new DmbCellPhone(11, "Java폰", "검정")
+
+	}
+
+}

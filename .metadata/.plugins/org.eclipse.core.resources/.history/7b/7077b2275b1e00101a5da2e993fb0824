@@ -1,0 +1,18 @@
+package chapter06;
+
+import java.util.Scanner;
+
+public class CanMain_09 {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		int money = 0;
+
+		// 음료 준비
+		Vending ven = new Vending();
+		ven.init();
+
+	}
+
+}

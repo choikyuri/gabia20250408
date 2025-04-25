@@ -1,0 +1,16 @@
+package chapter05;
+
+public class Example02 {
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		int num2 = 20;
+
+		// 반환값이 있는 메소드
+		int result = sum(num1, num2);
+		System.out.println("반환값 출력: " + result);
+
+		// 반환값이 없는 메소드
+		total(num1, num2);
+	}//main
+}//class

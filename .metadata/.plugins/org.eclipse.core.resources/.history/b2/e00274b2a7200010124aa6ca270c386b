@@ -1,0 +1,25 @@
+package chapter11;
+
+class Out {
+
+	// 멤버변수
+	static int a = 1; // 정적변수로 모든 객체가 공유
+	int b; // 객체마다 서로 다른 값을 가질 수 있음
+
+	public static class In {
+
+		// 메서드
+		String Infun() {
+			return a + "번째 static 내주 클래스";
+		}//Infun
+	}// In class
+}// Out class
+
+public class StaticClassMain_02 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

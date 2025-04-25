@@ -1,0 +1,14 @@
+package chapter06;
+
+public class AccessTest {
+
+	// 멤버변수=필드
+	private int aa;
+	public int bb;
+	int cc;
+
+	public static void main(String[] args) {
+
+	}
+
+}

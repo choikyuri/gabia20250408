@@ -1,0 +1,17 @@
+package chapter09;
+
+public class Computer {
+
+	// 추상메서드 -> Body가 없음
+	public abstract void display();
+
+	// 일반 메소드
+	public void turnOn() {
+		System.out.println("전원을 켭니다");
+	}
+
+	public void turnOff() {
+		System.out.println("전원을 끕니다");
+	}
+
+}

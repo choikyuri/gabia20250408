@@ -1,0 +1,9 @@
+package chapter10.MultiInterface;
+
+public class InterMenuMain_03 implements Inter_Menu3 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

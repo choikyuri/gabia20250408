@@ -1,0 +1,26 @@
+package chapter06;
+
+public class AccessTest {
+
+	// 멤버변수=필드
+	private int aa; // 접근지정자로 현재 클래스에서만 사용가능
+	public int bb; // 접근지정자 공용(다름 클래스에서도 사용 가능)
+	int cc; // public생략
+
+	public void setAa(int aa) {
+		this.aa = aa;
+	}
+
+	public void setBb(int bb) {
+		this.bb = bb;
+	}
+
+	public void setCc(int cc) {
+		this.cc = cc;
+	}
+
+	public static void main(String[] args) {
+
+	}
+
+}

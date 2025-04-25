@@ -1,0 +1,13 @@
+package chapter08;
+
+public class SuperMain {
+
+	public static void main(String[] args) {
+
+		Paprika obj = new Paprika();
+
+		obj.Set1("피망류", "여름", "노랑파프리카"); // 부모클래스의 메소드
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package chapter08;
+
+public class Washer extends Appliance {
+
+	public Washer(String brand) {
+		super(brand);
+	}
+
+	@Override
+	void turnOn() {
+		super.turnOn();
+	}
+	
+	
+
+}

@@ -1,0 +1,12 @@
+package chapter06;
+
+public class TakeTrans {
+
+	public static void main(String[] args) {
+
+		// 학생 2명 생성(studentJames, studentTom)
+		StdInfo studentJames = new StdInfo("James", 20000);
+		StdInfo studentTom = new StdInfo("Tom", 23000);
+	}
+
+}

@@ -1,0 +1,14 @@
+package chapter09;
+
+public class CarMain_05 {
+
+	public static void main(String[] args) {
+
+	}
+
+	public static void method(Car car) {
+		car.drive();
+		car.stop();
+	}
+
+}

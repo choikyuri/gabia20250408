@@ -1,0 +1,19 @@
+package chapter02;
+
+public class LogicTest_09 {
+
+	public static void main(String[] args) {
+		// 논리연산 AND(&&),OR(||)
+		
+		char a,b;
+		boolean c;
+		
+		a='A';
+		b='B';
+		
+		c= true && true;
+		System.out.println(c);
+
+	}
+
+}

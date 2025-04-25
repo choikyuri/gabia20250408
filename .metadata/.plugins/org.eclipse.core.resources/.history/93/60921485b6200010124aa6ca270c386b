@@ -1,0 +1,19 @@
+package chapter11;
+
+import java.util.Scanner;
+
+public class EnumMain_08 {
+	
+	public enum Item{Start, Pause, Exit}
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		while(trun) {
+			
+		}//while
+
+	}
+
+}

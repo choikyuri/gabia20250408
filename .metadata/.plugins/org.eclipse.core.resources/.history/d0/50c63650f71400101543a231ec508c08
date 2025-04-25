@@ -1,0 +1,24 @@
+package chapter02;
+
+public class LogicTest_11 {
+
+	public static void main(String[] args) {
+		
+		int num1=10;
+		int num2=20;
+		
+		System.out.println("----------AND----------");
+		boolean flag1=(num1>10)&&(num2>20);
+		System.out.println("false && false : "+flag1);
+		
+		boolean flag2=(num1>10)&&(num2>0);
+		System.out.println("false && true : "+flag2);
+		
+		boolean flag3=(num1>0)&&(num2>0);
+		System.out.println("true && true : "+flag2);
+		
+		System.out.println("----------OR----------");
+
+	}
+
+}

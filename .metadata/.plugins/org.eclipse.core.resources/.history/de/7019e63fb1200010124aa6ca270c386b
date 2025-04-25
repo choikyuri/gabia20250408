@@ -1,0 +1,14 @@
+package chapter11;
+
+class OutterRunnable {
+
+}// OutterRunnable
+
+public class AnonyMousInnerMain_06 {
+
+	public static void main(String[] args) {
+		OutterRunnable out = new OutterRunnable();
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package chapter09;
+
+//단 하나라도 추상 메서드가 존재하면 추상 클래스 이다
+public abstract class Computer {
+
+	// 추상메서드 -> Body가 없음
+	public abstract void display();
+
+	// 일반 메소드
+	public void turnOn() {
+		System.out.println("전원을 켭니다");
+	}
+
+	public void turnOff() {
+		System.out.println("전원을 끕니다");
+	}
+
+}

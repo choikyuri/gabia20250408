@@ -1,0 +1,11 @@
+package chapter08;
+
+public class Student extends People {
+	
+	public int studentNo;
+	
+	public Student() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

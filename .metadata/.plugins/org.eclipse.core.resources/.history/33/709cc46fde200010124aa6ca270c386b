@@ -1,0 +1,12 @@
+package chapter12.string;
+
+public class StudentMain_08 {
+
+	public static void main(String[] args) {
+
+		Student studentLee = new Student(100, "이상우");
+		Student studentLee2 = studentLee;
+
+	}
+
+}

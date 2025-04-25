@@ -1,0 +1,12 @@
+package chapter06;
+
+public class Example_person_Main {
+
+	public static void main(String[] args) {
+
+		// 이름:홍길동/ 키:180/ 몸무게: 80
+		Example_person person = new Example_person();
+
+	}
+
+}

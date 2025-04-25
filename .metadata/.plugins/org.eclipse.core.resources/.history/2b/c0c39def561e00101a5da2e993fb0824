@@ -1,0 +1,16 @@
+package chapter06;
+
+public class Vending {
+
+	private Can[] can = new Can[5];
+	private int money;
+
+	// 생성자
+
+	// 메소드
+	public void init() {
+		can[0] = new Can("환타", 1000);
+
+	}
+
+}

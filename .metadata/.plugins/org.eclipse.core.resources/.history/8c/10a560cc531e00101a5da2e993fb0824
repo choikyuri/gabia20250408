@@ -1,0 +1,34 @@
+package chapter06;
+
+public class TakeTrans {
+
+	public static void main(String[] args) {
+
+		// 학생 2명 생성(studentJames, studentTom)
+		StdInfo studentJames = new StdInfo("James", 20000);
+		StdInfo studentTom = new StdInfo("Tom", 23000);
+
+		// 버스타기(100)
+		Bus bus100 = new Bus(100);
+		studentJames.takeBus(bus100);
+		// studentJames info
+		studentJames.showinfo();
+		bus100.showinfo();
+		System.out.println("------------------------------------");
+		Bus bus999 = new Bus(999);
+		studentTom.takeBus(bus999);
+		// studentJames info
+		studentTom.showinfo();
+		bus999.showinfo();
+		studentJames.takeBus(bus999);
+		// studentJames info
+		studentJames.showinfo();
+		bus999.showinfo();
+
+		System.out.println("------------------------------------");
+		Subway subwayGreen=new Subway("2호선");
+		studentTom.takeSubway(subwayGreen);
+
+	}
+
+}

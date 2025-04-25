@@ -1,0 +1,33 @@
+package chapter07;
+
+import java.util.Scanner;
+
+public class Tour {
+
+	public static void main(String[] args) {
+
+		Scanner scan = new Scanner(System.in);
+		System.out.print("관광객 수 : ");
+		int n = scan.nextInt(); // 3
+
+		// 초기화를 통해서 메모리 확보 및 고객생성(Guide의 객체)
+		// guide.guest[0], guide.guest[1], guide.guest[2]
+		Guide_04 guide = new Guide_04(n);
+
+		System.out.println();
+		System.out.println("광관객 등록");
+		// 관광객 등록(for)
+		for (int i = 0; i < n; i++) {
+			System.out.print((i + 1) + ". 이름: ");
+			String name = scan.next();
+			guide.guest[i].setName(name);
+
+			System.out.print((i + 1) + ". 성별: ");
+			String gender = scan.next();
+			guide.guest[i].setGender(gender);
+
+		}
+
+	}
+
+}

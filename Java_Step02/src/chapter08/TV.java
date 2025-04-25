@@ -1,0 +1,15 @@
+package chapter08;
+
+public class TV extends Appliance_05 {
+
+	public TV(String brand) {
+		super(brand);
+	}
+
+	@Override
+	void turnOn() {
+		super.turnOn(); // 부모 동작 유지
+		System.out.println("TV 화면을 켭니다.");
+	}
+
+}

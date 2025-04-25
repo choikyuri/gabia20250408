@@ -1,0 +1,10 @@
+package chapter10.MultiInterface;
+
+public class InterMenuMain_03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

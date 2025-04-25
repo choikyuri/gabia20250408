@@ -1,0 +1,27 @@
+package chapter12.string;
+
+public class StudentMain_08 {
+
+	public static void main(String[] args) {
+
+		Student studentLee = new Student(100, "이상우");
+		Student studentLee2 = studentLee;
+
+		System.out.println("-----동일한 주소의 두 인스턴스 비교-----");
+		if (studentLee == studentLee2) { // 물리적인 주소
+			System.out.println("studentLee 와 studentLee2의 주소는 같습니다.");
+		} else {
+			System.out.println("studentLee 와 studentLee2의 주소는 다릅니다.");
+		}
+		
+		if (studentLee.equals(studentLee2)) { // 논리적인 주소
+			System.out.println("studentLee 와 studentLee2의 주소는 같습니다.");
+		} else {
+			System.out.println("studentLee 와 studentLee2의 주소는 다릅니다.");
+		}
+		
+		
+
+	}
+
+}
